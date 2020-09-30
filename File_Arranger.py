@@ -2,11 +2,6 @@ import os
 import shutil
 import ctypes
 
-# Notes:how to create folder/browser dialog
-# import tkinter.filedialog
-# tkinter.filedialog.askdirectory(EXPAND_END_PATH)
-
-
 # Set variables
 END_PATH = '~'
 EXPAND_END_PATH = os.path.expanduser(END_PATH)
