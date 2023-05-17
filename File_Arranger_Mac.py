@@ -64,7 +64,7 @@ def public_arranger():
             shutil.move(source, destination)
 
 # Displays desktop message alerting user that files have been moved
-messagebox.showinfo("File Arranger", "Your file are being sorted, check the Downloads folder.",)
+messagebox.showinfo("File Arranger", "Your files are being sorted, check the Downloads folder.",)
 
 if __name__ == '__main__':
     public_arranger()
